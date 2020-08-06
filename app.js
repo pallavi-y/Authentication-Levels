@@ -36,7 +36,7 @@ mongoose.connect("mongodb://localhost:27017/userDB", {
   useUnifiedTopology: true
 });
 
-
+//Schema
 const userSchema = new mongoose.Schema( {
   username: String,
   password: String
@@ -45,7 +45,7 @@ const userSchema = new mongoose.Schema( {
 userSchema.plugin(passportLocalMongoose);
 
 const User = mongoose.model("User", userSchema);
-
+//initializing passport
 passport.use(User.createStrategy());
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());

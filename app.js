@@ -101,7 +101,7 @@ app.post("/register", function(req, res) {
   });
 });
 
-
+//the secrets page, displayed after login.
 app.get("/secrets", function(req, res) {
   if (req.isAuthenticated()) {
     res.render("secrets");

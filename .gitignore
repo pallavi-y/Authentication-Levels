@@ -67,7 +67,7 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
-
+#.env is the file we are using in the project
 # dotenv environment variables file
 .env
 .env.test

@@ -110,7 +110,7 @@ app.get("/secrets", function(req, res) {
     res.redirect("/login");
   }
 });
-
+//Logout
 app.get("/logout", function(req, res) {
   req.logout();
   res.redirect("/");

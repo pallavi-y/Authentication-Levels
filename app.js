@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const md5 = require("md5");
 const ejs = require("ejs");
 const bcrypt = require("bcrypt");
-//The below required packages are used for cookies
+
 const session = require("express-session");
 //passport is an authentication middleware
 const passport = require("passport");

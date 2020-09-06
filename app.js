@@ -1,5 +1,5 @@
 //jshint esversion:6
-//Sources- Passportjs documentation,passport-local-mongoose for info
+
 //Requiring the packages
 const express = require("express");
 const bodyParser = require("body-parser");

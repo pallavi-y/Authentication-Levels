@@ -9,7 +9,7 @@ const ejs = require("ejs");
 const bcrypt = require("bcrypt");
 
 const session = require("express-session");
-//passport is an authentication middleware
+
 const passport = require("passport");
 const passportLocalMongoose = require("passport-local-mongoose");
 

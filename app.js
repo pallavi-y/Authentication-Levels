@@ -58,7 +58,6 @@ app.get("/", function(req, res) {
   res.render("home");
 });
 
-//Login POST and GET
 app.get("/login", function(req, res) {
   res.render("login");
 });

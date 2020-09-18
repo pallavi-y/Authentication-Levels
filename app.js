@@ -79,7 +79,7 @@ app.post("/login", function(req, res) {
   });
 });
 
-//Register GET and POST
+
 app.get("/register", function(req, res) {
   res.render("register");
 });

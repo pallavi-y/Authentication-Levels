@@ -35,7 +35,7 @@ mongoose.connect("mongodb://localhost:27017/userDB", {
   useUnifiedTopology: true
 });
 
-//Schema
+
 const userSchema = new mongoose.Schema( {
   username: String,
   password: String
